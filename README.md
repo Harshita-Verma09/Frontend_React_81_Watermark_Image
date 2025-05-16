@@ -1,12 +1,27 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# WatermarkUploader
 
-Currently, two official plugins are available:
+A React component that allows users to upload an image and add a text-based watermark to it. Users can then preview and download the watermarked image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Image Upload:** Supports uploading images in `.png`, `.jpg`, and `.jpeg` formats.
+- **Text Watermark:** Allows users to input custom text to be used as a watermark.
+- **Real-time Preview:** Displays a preview of the image with the applied watermark.
+- **Download:** Enables users to download the final watermarked image as a `.png` file.
+- **Simple and Intuitive UI:** Built with Tailwind CSS for a clean and responsive design.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Make sure you have Node.js and npm (or yarn) installed on your system.
+2. Create a new React project (if you haven't already):
+   ```bash
+   npx create-react-app watermark-app
+   cd watermark-app
+
+```
+npm install -D tailwindcss postcss autoprefixer
+# or
+yarn add -D tailwindcss postcss autoprefixer
+
+```
